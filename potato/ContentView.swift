@@ -10,11 +10,15 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
+            Image("vhshelldiver")
+                .resizable()
                 .foregroundStyle(.tint)
-            Text("peyton-baked-potatos")
+            Text("v was here im in your walls !")
+
+         
             Capsule()
+            Text("peyton-baked-potatos")
+         
 
         }
         .padding()
